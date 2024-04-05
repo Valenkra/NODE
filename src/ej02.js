@@ -16,3 +16,7 @@ console.log(`multiplicar(${numero1}, ${numero2}) = ${total}`);
 
 total = dividir(numero1, numero2); // Uso la función sumar importada.
 console.log(`dividir(${numero1}, ${numero2}) = ${total}`);
+
+numeros.forEach(num => {
+    console.log(num);
+});
