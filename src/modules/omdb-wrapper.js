@@ -56,7 +56,7 @@ let returnObject = {
         if (response.data.Response === "True") {
             returnObject.respuesta = true;
             returnObject.cantidadTotal = 1;
-            returnObject.datos = response.data.Search;
+            returnObject.datos = response.data;
             return returnObject;
         }
     } catch (error) {
